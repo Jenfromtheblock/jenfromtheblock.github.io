@@ -1,0 +1,28 @@
+
+body {
+	background-color:black;
+	font-family:Helvetica;
+}
+h1,p{
+	color:white;
+    text-align:center;
+    font-size:35px;
+}
+img { 
+	display: block;
+	margin:auto;
+}
+#blue { 
+	color:#4a6bff;
+	text-align:center
+}
+h3{ 
+	font-size:60px; 
+}
+ul{
+	color:white;
+	font-family;Helvetica;
+	font-size:35px;
+	text-align:center;
+	list-style-type:none;
+}
