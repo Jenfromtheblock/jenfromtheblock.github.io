@@ -3,14 +3,17 @@ body {
 	background-color:black;
 	font-family:Helvetica;
 }
-h1,p{
+h1,p,ul{
 	color:white;
     text-align:center;
     font-size:35px;
+    font-family: 'Slabo 27px', serif;
 }
 img { 
 	display: block;
 	margin:auto;
+	height: 400px;
+	width:75%;
 }
 #blue { 
 	color:#4a6bff;
@@ -18,6 +21,8 @@ img {
 }
 h3{ 
 	font-size:60px; 
+	font-family: 'Bungee Hairline';
+	font-weight: 600;
 }
 ul{
 	color:white;
