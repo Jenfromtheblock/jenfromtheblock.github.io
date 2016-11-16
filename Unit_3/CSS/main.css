@@ -11,9 +11,9 @@ h1,p,ul{
 }
 img { 
 	display: block;
-	margin:auto;
-	height: 400px;
-	width:75%;
+	margin:auto;            
+	height: 500px;
+	width:90%;
 }
 #blue { 
 	color:#4a6bff;
