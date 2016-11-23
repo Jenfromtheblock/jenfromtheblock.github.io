@@ -1,0 +1,138 @@
+header{
+	background-color:#FFED74;
+	border:1px solid black;
+	padding:20px;
+}
+nav{
+	background-color:#E8C66A;
+	border:1px solid black;
+	padding:20px;
+}
+body {
+	background-color:black;
+	font-family:Helvetica;
+}
+h1,p,ul{
+	color:white;
+    text-align:center;
+    font-size:25px;
+    font-family: 'Slabo 27px', serif;
+}
+h2{
+	position: absolute;
+	top:200px;
+	left:325px;
+	width:100%;
+	text-align:center;
+	font-size:88px;
+	color:#61BCFF;
+	font-family:'Anton';
+	display: block;
+	width:500px;
+	background-color: black;
+}
+
+#blue { 
+	color: #61BCFF;
+	position: relative;
+	top:350px;
+	left:325px;
+	width:100%;
+	font-size:95px;
+	padding: 0 5px;
+	display: block;
+	width:500px;
+	background-color: black;
+}
+h3{ 
+	font-size:60px; 
+	font-family: 'Anton';
+	font-weight: 600;
+	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+}
+ul{
+	color:white;
+	font-family;Helvetica;
+	font-size:35px;
+	text-align:center;
+	list-style-type:none;
+}
+.companyintro {
+	background-color:#E89C6C;
+	border:1px solid black;
+	padding:20px;
+}
+#heroimage { 
+	background-color:#FFC675;
+	border:1px solid black;
+	padding:20px;
+	background: url(../images/Cityskyline.png) no-repeat center center;
+	position: relative;
+	width:100%;
+	background-size: cover;
+	height: 600px;
+	font-family: 'Anton';
+	opacity: 1;
+	clear:both;
+}
+#twocolumns {
+	background-color: #FFB7CF;
+	border: 2px black solid;
+    padding; 20px;
+    font-size: 14px;
+  
+}
+
+#left {
+	background-color: #E582A2;
+	border: 2px white solid;
+	float: left;
+    padding:20px;
+    display: block;
+    clear: both;
+    width: 35%;
+    font-size: 14px;
+}
+#right {
+	background-color: #E55B88;
+	border: 2px white solid;
+	float: right;
+    padding:20px;
+    display: block;
+    clear: both;
+    width: 58%;
+    font-size: 14px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+    font-size: 0;
+}
+
+
+.services{
+	background-color:#FFE2B8;
+	border:1px solid black;
+	padding:20px;
+}
+.contact{
+	background-color:#FFE2B8;
+	border:1px solid black;
+	padding: 0px;
+
+}
+
+
+}
+footer{
+	font-size:20px;
+	background-color:#FF957E;
+	border:1px solid black;
+	padding:20px;
+}

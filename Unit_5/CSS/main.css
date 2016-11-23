@@ -27,6 +27,9 @@ h2{
 	font-size:88px;
 	color:#61BCFF;
 	font-family:'Anton';
+	display: block;
+	width:500px;
+	background-color: black;
 }
 
 #blue { 
@@ -39,6 +42,9 @@ h2{
 	text-align:center;
 	font-size:95px;
 	padding: 0 5px;
+	display: block;
+	width:500px;
+	background-color: black;
 }
 h3{ 
 	font-size:60px; 
