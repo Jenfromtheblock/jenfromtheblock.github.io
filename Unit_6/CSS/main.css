@@ -77,12 +77,13 @@ ul{
 	opacity: 1;
 	clear:both;
 }
-#twocolumns {
+#grid {
 	background-color: #FFB7CF;
-	border: 2px black solid;
-    padding; 20px;
-    font-size: 14px;
-  
+    padding:10px;
+    font-size: 22px;
+    width:100%;
+    text-align:center;
+    position:relative;
 }
 
 #left {
@@ -127,7 +128,11 @@ ul{
 	padding: 0px;
 
 }
-
+.col{width:18%;
+	height:200px;
+	float:left;
+	border:2px black solid;
+}
 
 }
 footer{
