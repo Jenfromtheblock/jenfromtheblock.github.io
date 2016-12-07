@@ -81,7 +81,6 @@ ul{
 	clear:both;
 }
 #grid {
-	background-color: #FFB7CF;
     padding:10px;
     font-size: 22px;
     width:100%;
@@ -121,17 +120,16 @@ ul{
 
 
 .services{
-	background-color:#FFE2B8;
 	border:1px solid black;
 	padding:20px;
 }
 .contact{
-	background-color:#FFE2B8;
 	border:1px solid black;
 	padding: 0px;
 
 }
-.col{width:18%;
+.col{
+	width:18%;
 	height:200px;
 	float:left;
 	border:2px black solid;

@@ -1,0 +1,225 @@
+header{
+	border: 1px solid black;
+	padding: 20px;
+}
+nav{
+	border: 1px solid white;
+	padding: 3px;
+	width: 70%;
+	text-align: center;
+	margin: auto;
+	font-size:25px;
+}
+body {
+	background-color: black;
+	font-family: Helvetica;
+}
+h1,p, {
+	color:white;
+    text-align:center;
+    font-size:25px;
+}
+li {float: left;
+	padding: 5px 15px;
+	margin: auto;
+	text-align: center;
+	font-size: 25px;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	display: absolute;
+	font-family:'Anton';
+}
+h2{
+	position: absolute;
+	top: 75px;
+	left: 325px;
+	width: 40%;
+	text-align: center;
+	font-size: 125px;
+	color: #61BCFF;
+	font-family:'Anton';
+	display: block;
+	background-color: black;
+}
+
+#blue { 
+	color: #61BCFF;
+	position: relative;
+	top:350px;
+	left:300px;
+	width:40%;
+	font-size:95px;
+	padding: 0 5px;
+	display: block;
+	background-color: black;
+}
+h3{ 
+	font-size:60px; 
+	font-family: 'Anton';
+	font-weight: 600;
+	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+}
+ul{
+	color:white;
+	font-family:'Anton';
+	font-size:35px;
+	text-align:center;
+	list-style-type:none;
+	margin:auto;
+	width:100%;
+	padding: 0px 200px;
+}
+
+.companyintro {
+	color: white;
+	border: 1px solid black;
+	padding: 10px;
+	display: block;
+	font-family: 'Anton';
+	font-size: 35px;
+	text-align:center;
+}
+#heroimage { 
+	background-color:#FFC675;
+	border:1px solid black;
+	padding:20px;
+	background: url(../images/Cityskyline.png) no-repeat center center;
+	position: relative;
+	width:100%;
+	background-size: cover;
+	height: 600px;
+	font-family: 'Anton';
+	opacity: 1;
+	clear:both;
+}
+#allgrid {
+    padding:10px 0;
+    font-size: 22px;
+    width:100%;
+  
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+    font-size: 0;
+}
+
+
+.services{
+	border:1px solid black;
+	padding:20px;
+	font-size: 35px;
+	color:white;
+}
+.contact{
+	border:1px solid black;
+	padding: 0px;
+
+}
+
+img { width:87%;
+padding:0;}
+
+}
+footer{
+	font-size:20px;
+	border:1px solid black;
+	padding:30px;
+}
+
+.allgrid2 {
+	display: block;
+	min-width:350px;
+    padding:10px 0;
+    font-size: 22px;
+    width: 100%;
+    color:black;
+}
+
+.allgrid {
+    padding:10px 0;
+    font-size: 22px;
+    width:100%;
+    display: block;
+}
+
+
+@media only screen and (max-width: 1355px){
+	.col{
+		width: 17.85%;
+		float: left;
+		min-height: 260px;
+		border: 1px white solid;
+		color: white;
+		text-align: center;
+		font-size: 1.2em;
+		padding-top:20px;
+	}
+
+	#grid2 {
+		display: block;
+	}
+	#grid {
+		display: none;
+	}
+
+}
+@media (min-width: 1356px) {
+	.col{
+		width: 19.85%;
+		float: left;
+		min-height: 260px;
+		border: 1px white solid;
+		color: white;
+		text-align: center;
+		font-size: 2em;
+	}
+
+	#grid2 {
+		display: none;
+	}
+	#grid {
+		display: block;
+	}
+}
+@media (max-width: 1355px) {
+	h2	{
+	width: 25%;
+	height:29%;
+	text-align: center;
+	font-size: 5em;
+	color: #61BCFF;
+	font-family:'Anton';
+	background-color: black;
+}
+
+	#blue { 
+		color: #61BCFF;
+		position: relative;
+		top:350px;
+		left:300px;
+		width:50%;
+		font-size:5em;
+		padding: 0 5px;
+		display: block;
+		background-color: black;
+}
+.clearfix:after {
+	display:none;
+ }
+ nav{
+	border: 1px solid white;
+	padding: 1px;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	font-size:1em;
+}
+}
