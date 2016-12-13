@@ -7,7 +7,7 @@ nav{
 	width: 70%;
 	text-align: center;
 	 margin: auto;
-	font-size: 25px;
+	font-size: 3em;
 }
 body {
 	background-color: black;
@@ -22,7 +22,7 @@ li {float: left;
 	padding: 5px 15px;
 	margin: auto;
 	text-align: center;
-	font-size: 25px;
+	font-size: 3em;
 	margin: 0;
 	top: 50%;
 	left: 50%;
@@ -32,7 +32,7 @@ li {float: left;
 h2 {
 	width: 45%;
 	margin:auto;
-	font-size: 125px;
+	font-size: 7em;
 	color: #61BCFF;
 	font-family:'Anton';
 	display: inline-block;
@@ -41,17 +41,17 @@ h2 {
 
 #blue { 
 	color: #61BCFF;
-	position:absolute;
+	position: absolute;
 	margin: auto;
 	margin-left:-315px;
 	line-height: 125px;
-	width:35%;
-	font-size:95px;
+	width: 35%;
+	font-size: 5em;
 	display: block;
 	background-color: black;
 }
 h3{ 
-	font-size:60px; 
+	font-size: 60px; 
 	font-family: 'Anton';
 	font-weight: 600;
 	top: 50%;
@@ -59,13 +59,13 @@ h3{
     margin-right: -50%;
 }
 ul{
-	color:white;
+	color: white;
 	font-family:'Anton';
-	font-size:35px;
-	text-align:center;
-	list-style-type:none;
-	margin:auto;
-	width:100%;
+	font-size: 35px;
+	text-align: center;
+	list-style-type: none;
+	margin: auto;
+	width: 100%;
 	padding: 0px 200px;
 }
 
@@ -205,6 +205,7 @@ footer{
 		background-color: black;
 		margin:auto;
 		margin-left:-80px;
+}
 }	
 @media only screen and (min-width: 787px) and (max-width: 1160px) 
 {
@@ -254,7 +255,6 @@ footer{
 		height: 10%;
 	}
 }
-
 @media only screen and (min-width: 110px) and (max-width: 786px) {
 	h2	{
 	width: 20%;
@@ -282,6 +282,7 @@ footer{
 	margin: auto;
     font-size:.75em;
 }
+
 .companyintro {
 	color: white;
 	border: 1px solid black;
@@ -317,4 +318,4 @@ footer {
 		text-align: center;
 		font-size: 1.2em;
 	}
-
+}
