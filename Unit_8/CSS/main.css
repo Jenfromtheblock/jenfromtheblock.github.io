@@ -3,12 +3,11 @@ header{
 	padding: 20px;
 }
 nav{
-	border: 1px solid white;
 	padding: 3px;
 	width: 70%;
 	text-align: center;
-	margin: auto;
-	font-size:25px;
+	 margin: auto;
+	font-size: 25px;
 }
 body {
 	background-color: black;
@@ -30,27 +29,24 @@ li {float: left;
 	display: absolute;
 	font-family:'Anton';
 }
-h2{
-	position: absolute;
-	top: 75px;
-	left: 325px;
-	width: 40%;
-	text-align: center;
+h2 {
+	width: 45%;
+	margin:auto;
 	font-size: 125px;
 	color: #61BCFF;
 	font-family:'Anton';
-	display: block;
+	display: inline-block;
 	background-color: black;
 }
 
 #blue { 
 	color: #61BCFF;
-	position: relative;
-	top:350px;
-	left:300px;
-	width:40%;
+	position:absolute;
+	margin: auto;
+	margin-left:-315px;
+	line-height: 125px;
+	width:35%;
 	font-size:95px;
-	padding: 0 5px;
 	display: block;
 	background-color: black;
 }
@@ -98,10 +94,9 @@ ul{
 #allgrid {
     padding:10px 0;
     font-size: 22px;
-    width:100%;
+    width: 100%;
   
 }
-
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -111,17 +106,13 @@ ul{
     font-size: 0;
 }
 
-
-.services{
-	border:1px solid black;
-	padding:20px;
-	font-size: 35px;
-	color:white;
-}
 .contact{
 	border:1px solid black;
 	padding: 0px;
-
+	color:white;
+	font-size:35px;
+	font-family:'Anton';
+	text-align:center;
 }
 
 img { width:87%;
@@ -132,6 +123,9 @@ footer{
 	font-size:20px;
 	border:1px solid black;
 	padding:30px;
+    font-family:'Anton';
+    display:none;
+
 }
 
 .allgrid2 {
@@ -140,7 +134,7 @@ footer{
     padding:10px 0;
     font-size: 22px;
     width: 100%;
-    color:black;
+    color: black;
 }
 
 .allgrid {
@@ -148,19 +142,20 @@ footer{
     font-size: 22px;
     width:100%;
     display: block;
+    margin: auto;
 }
 
 
 @media only screen and (max-width: 1355px){
+
 	.col{
 		width: 17.85%;
-		float: left;
-		min-height: 260px;
 		border: 1px white solid;
 		color: white;
 		text-align: center;
 		font-size: 1.2em;
-		padding-top:20px;
+		padding-top: 20px;
+		margin:auto;
 	}
 
 	#grid2 {
@@ -171,15 +166,15 @@ footer{
 	}
 
 }
-@media (min-width: 1356px) {
+@media only screen and (min-width: 1356px) {
 	.col{
 		width: 19.85%;
 		float: left;
-		min-height: 260px;
 		border: 1px white solid;
 		color: white;
 		text-align: center;
 		font-size: 2em;
+		height:230px;
 	}
 
 	#grid2 {
@@ -188,13 +183,15 @@ footer{
 	#grid {
 		display: block;
 	}
+	
 }
-@media (max-width: 1355px) {
+@media only screen and (min-width: 1161px) and (max-width: 1355px)
+{ 
 	h2	{
-	width: 25%;
-	height:29%;
+	width: 31%;
+	height: 20%;
 	text-align: center;
-	font-size: 5em;
+	font-size: 5.25em;
 	color: #61BCFF;
 	font-family:'Anton';
 	background-color: black;
@@ -203,23 +200,121 @@ footer{
 	#blue { 
 		color: #61BCFF;
 		position: relative;
-		top:350px;
-		left:300px;
-		width:50%;
-		font-size:5em;
-		padding: 0 5px;
-		display: block;
+		width: 29%;
+		font-size: 3.25em;
 		background-color: black;
+		margin:auto;
+		margin-left:-80px;
+}	
+@media only screen and (min-width: 787px) and (max-width: 1160px) 
+{
+	h2	{
+	width: 25%;
+	height: 20%;
+	text-align: center;
+	font-size: 2.5em;
+	color: #61BCFF;
+	font-family:'Anton';
+	background-color: black;
 }
-.clearfix:after {
-	display:none;
- }
- nav{
-	border: 1px solid white;
+
+	#blue { 
+		color: #61BCFF;
+		position: relative;
+		width: 29%;
+		font-size: 2.5em;
+		background-color: black;
+		margin:auto;
+		margin-left:-84px;
+}
+
+ 	nav {
 	padding: 1px;
 	width: 50%;
 	text-align: center;
 	margin: auto;
-	font-size:1em;
+    font-size:.75em;
 }
+.companyintro {
+	color: white;
+	border: 1px solid black;
+	padding: 10px;
+	display: block;
+	font-family: 'Anton';
+	font-size: 1.5em;
+	text-align: center;
+	margin: 2em 4em ;
 }
+.col{
+		width: 19.85%;
+		border: 1px white solid;
+		color: white;
+		text-align: center;
+		font-size: 1.5em;
+		height: 10%;
+	}
+}
+
+@media only screen and (min-width: 110px) and (max-width: 786px) {
+	h2	{
+	width: 20%;
+	height: 29%;
+	text-align: center;
+	font-size: 1em;
+	color: #61BCFF;
+	font-family:'Anton';
+	background-color: black;
+}
+
+	#blue { 
+		color: #61BCFF;
+		position: relative;
+		width: 25%;
+		font-size: 2em;
+		background-color: black;
+		margin:auto;
+		margin-left:-84px;
+}
+ 	nav {
+	padding: 1px;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+    font-size:.75em;
+}
+.companyintro {
+	color: white;
+	border: 1px solid black;
+	padding: 10px;
+	display: block;
+	font-family: 'Anton';
+	font-size: 1.5em;
+	text-align:center;
+	margin: 2em 4em ;
+}
+.contact {
+	border:1px solid black;
+	padding: 0px;
+	color:white;
+	font-size:1.5em;
+	font-family:'Anton';
+	text-align:center;
+}
+footer {
+	font-size:1.5em;
+	border:1px solid black;
+	padding: 30px;
+    font-family:'Anton';
+    display: none;
+    text-align: center;
+    color: white;
+}
+.col{
+		width: 17.85%;
+		float:none;
+		border: 1px white solid;
+		color: white;
+		text-align: center;
+		font-size: 1.2em;
+	}
+
